@@ -1,0 +1,16 @@
+{
+  "viewportWidth": 1200,
+  "viewportHeight": 900,
+  "watchForFileChanges" : false,
+  "defaultCommandTimeout" : 90000,
+  "baseUrl": "http://localhost:8080",
+  "wp": {
+    "port" : 8080,
+    "version": ["5.5"],
+    "plugins": [],
+    "themes": [],
+    "config": {
+      "WP_DEBUG": false
+    }
+  }
+}

@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.sml_logs {
+	display: table;
+}
+
+	.sml_head {
+		display: table-row;
+		clear: both;
+		padding: 3px 3px 6px 3px;
+		font-size: 90%;
+		font-style: italic;
+	}
+
+		.sml_head_cell {
+			padding: 3px 3px 4px 10px;
+			border-bottom: solid 1px #D9D9D9;
+		}
+
+	.sml_entry {
+		display: table-row;
+		clear: both;
+		border-bottom: solid 1px #D9D9D9 ;
+	}
+
+		.sml_entry_cell {
+			padding: 0px 6px 5px 3px;
+			border-bottom: solid 1px #D9D9D9;
+		}
+
+		.sml_entry_id {
+			display: table-cell;
+		}
+
+		.sml_entry_qt {
+			display: table-cell;
+		}
+
+		.sml_entry_query {
+			display: table-cell;
+		}
+
+		.sml_entry  pre{
+			padding: 0;
+			margin: 0;
+			background-color: inherit !important;
+		}
+		.sml_entry_qt_percent {
+			padding: 0;
+			margin: 0;
+			height: 2px !important;
+			background-color: #CC0000;
+			position: relative;
+			bottom: 3px;
+		}
+
+.sml_entry_sel {
+	color: #008A0E !important;
+	font-weight: 600;
+}
+.sml_entry_del {
+	color: #A30300 !important;
+	font-weight: 600;
+}
+.sml_entry_upd {
+	color: #A37800 !important;
+	font-weight: 600;
+}
+.sml_entry_ins {
+	color: #005AA3 !important;
+	font-weight: 600;
+}
+
+.sml_entry_date, .sml_entry_file {
+	font-size: 85%;
+	float: left;
+}
+
+
+
+.sml_entry_detail pre, .sml_entry_prelike {
+	background-color: #FFFFFF;
+	padding: 5px 10px;
+}
+
+.sml_entry_prelike {
+	margin: 10px 0 10px 0;
+}
+
+.sml_entry_label {
+	font-style: italic;
+}
+
+.sml_options_descr{
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.sml_query_was_trimmed {
+	font-weight: normal !important;
+	color: #A8A8A8 !important;
+}
